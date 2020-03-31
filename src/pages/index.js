@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import GatsbyImage from "../components/gatsbyImage"
-import TerminalImage from "../components/terminalImage"
+import FleekImage from "../components/fleekImage"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -14,12 +14,11 @@ const IndexPage = () => (
         style={{
           maxWidth: `300px`,
           marginBottom: `1.45rem`,
-          backgroundColor: 'black',
           padding: '10px',
           borderRadius: '5px',
           margin: '0 auto',
           }}>
-        <TerminalImage />
+        <FleekImage />
       </div>
       <div style={{ fontSize: '100px', margin: '40px auto', textAlign: 'center' }}>+</div>
       <div style={{ width: '300px', maxWidth: `300px`, marginBottom: `1.45rem`, margin: '0 auto', }}>
